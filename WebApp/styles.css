@@ -1,0 +1,44 @@
+#top {
+  text-align: center;
+}
+
+#top h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#top h2 {
+  font-size: 24px;
+}
+
+.header {
+  border-bottom: solid black 1px;
+
+}
+
+#app {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  grid-template-rows: 1fr;
+}
+
+.appItem {
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+
+}
+
+#tasklist {
+  border-left: solid black 2px;
+  border-right: solid black 1px;
+  grid-column: 1 / 1;
+}
+
+#timer {
+  border-right: solid black 2px;
+  grid-column: 2/2;
+}
