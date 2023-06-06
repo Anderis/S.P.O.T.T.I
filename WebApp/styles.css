@@ -17,7 +17,7 @@
 }
 
 #app {
-  width: 1000px;
+  width: 700px;
   margin: 0 auto;
   text-align: center;
   padding-top: 50px;
@@ -41,4 +41,8 @@
 #timer {
   border-right: solid black 2px;
   grid-column: 2/2;
+}
+
+.taskInput:not(:last-child) {
+  margin-bottom: 10px;
 }
